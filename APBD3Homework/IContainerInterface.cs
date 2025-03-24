@@ -1,6 +1,5 @@
-﻿namespace APBD3Homework;
-
-public class IContainerInterface
+﻿public interface IContainerInterface
 {
-    
+    public void EmptyCargo();
+    public void LoadCargo(double mass);
 }

@@ -1,6 +1,6 @@
-﻿namespace apbd3;
+﻿namespace APBD3Homework;
 
-public class IHazardNotifier
+public interface IHazardNotifier
 {
-    
+    public void HazardousNotify(string message);
 }
